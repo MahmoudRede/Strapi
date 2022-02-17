@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homestd4s",
+  "info": {
+    "singularName": "homestd4",
+    "pluralName": "homestd4s",
+    "displayName": "homestd4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

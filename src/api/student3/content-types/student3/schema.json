@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student3s",
+  "info": {
+    "singularName": "student3",
+    "pluralName": "student3s",
+    "displayName": "student3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

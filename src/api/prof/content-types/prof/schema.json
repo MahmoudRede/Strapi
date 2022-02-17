@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profs",
+  "info": {
+    "singularName": "prof",
+    "pluralName": "profs",
+    "displayName": "prof"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    },
+    "department": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bio": {
+      "type": "text"
+    },
+    "u_id": {
+      "type": "string"
+    },
+    "id_doctor": {
+      "type": "uid",
+      "targetField": "u_id"
+    }
+  }
+}
